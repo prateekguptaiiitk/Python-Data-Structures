@@ -53,7 +53,7 @@ class LinkedList:
     if(self.head is not None):
       while(count < N):
         if(ref_ptr is None):
-          print("% d is greater than the no. pf nodes in list" % (N))
+          print("% d is greater than the no. of nodes in list" % (N))
           return
         ref_ptr = ref_ptr.next
         count += 1
